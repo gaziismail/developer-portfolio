@@ -5,7 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+footer p{
+    text-align: center;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -23,12 +26,11 @@ section{
 .link-btn{
     background-image: linear-gradient(lightsalmon, tomato);
     padding: 10px 20px;
-    border: none;as;dlfkalwekr
+    border: none;
     border-radius: 5px;
     color: white;
-    text-decasdwawerration: none;
+    text-decoration: none;
     font-weight: 700;
-    akljsdhfkqhwejklrh
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -38,4 +40,26 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+#exp-dev-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, lightsalmon);
+    border-image-slice: 1;
+}
+#exp-baby-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
