@@ -1,2 +1,0 @@
-this file for just the testing perpus
-this is a testing of git clone
